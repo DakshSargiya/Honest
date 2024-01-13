@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honest</title>
+    <!-- <script src="https://kit.fontawesome.com/ac24bc91cd.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Honest</div>
+        <div class="navbar_links_cont">
+            <div class="links"><a href="#home">Home</a></div>
+            <div class="links"><a href="#menu">Our Menu</a></div>
+            <div class="links"><a href="#abtus">About Us</a></div>
+            <div class="links"><a href="#contus">Contact Us</a></div>
+            <div class="links" id="cart-icon"><a href="#cart">Your Cart (<span class="cart-brac"></span>)</a></div>
+        </div>
+    </nav>
+    <main>
+        <div class="content">
+            <div class="rule" id="home"><hr></div>
+            <section class="home">
+                <div class="cartTab" id="cartDisplay">
+                    <h1>Cart Items</h1>
+                    <div class="listCart" id="cartItems"></div>
+                    <div class="btn">
+                        <button class="close">Close</button>
+                        <button class="checkout">Check Out</button>
+                    </div>
+                </div>
+
+                <div class="rest_title_cont">
+                    <h1 class="rest_title">Honest</h1>
+                    <p class="rest_subtitle">Crafted with Integrity, Served with Heart.</p>
+                    <button class="menu_btn"><a href="#menu">Explore Our Menu</a></button>
+                </div>
+                <div class="rest_bgimg">
+                    <img src="images/kayleigh-harrington-yhn4okt6ci0-unsplash.jpg" alt="Enticing Image of the Restaurant" class="bg_img">
+                </div>
+            </section>
+            <div class="rule" id="menu"><hr></div>
+            <section class="menu">
+                <div class="menu_section">Our Menu</div>
+                <section class="food-section">
+                    <div class="section-title">Starters</div>
+                    <div class="container">
+                        <div class="food_cont">
+                            <div class="food-img"><img src="" alt="Food-item"></div>
+                            <div class="food-text">
+                                <h2 class="food-name">Dolor Amet</h2>
+                                <p class="food-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore laborum quam fugiat porro odit itaque obcaecati maiores quo quod at molestiae possimus, cumque nihil error dolorum id provident illum et?</p>
+                                <p class="price">Price: $1.99</p>
+                                <div class="cart_btn" data-item-name="Dolor Amet" data-item-price="1.99">Add To Cart</div>
+                            </div>
+                        </div>
+                        <div class="food_cont">
+                            <div class="food-img"><img src="" alt="Food-item"></div>
+                            <div class="food-text" data-item-name="Dolor Amet" data-item-price="1.99">
+                                <h2 class="food-name">Dolor Amet</h2>
+                                <p class="food-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore laborum quam fugiat porro odit itaque obcaecati maiores quo quod at molestiae possimus, cumque nihil error dolorum id provident illum et?</p>
+                                <p class="price">Price: $1.99</p>
+                                <div class="cart_btn">Add To Cart</div>
+                            </div>
+                        </div>
+                        <div class="food_cont">
+                            <div class="food-img"><img src="" alt="Food-item"></div>
+                            <div class="food-text" data-item-name="Dolor Amet" data-item-price="1.99">
+                                <h2 class="food-name">Dolor Amet</h2>
+                                <p class="food-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore laborum quam fugiat porro odit itaque obcaecati maiores quo quod at molestiae possimus, cumque nihil error dolorum id provident illum et?</p>
+                                <p class="price">Price: $1.99</p>
+                                <div class="cart_btn">Add To Cart</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="food-section">
+                    <div class="section-title">Main Course</div>
+                    <div class="container">
+                        <div class="food_cont">
+                            <div class="food-img"><img src="" alt="Food-item"></div>
+                            <div class="food-text" data-item-name="Dolor Amet" data-item-price="1.99">
+                                <h2 class="food-name">Dolor Amet</h2>
+                                <p class="food-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore laborum quam fugiat porro odit itaque obcaecati maiores quo quod at molestiae possimus, cumque nihil error dolorum id provident illum et?</p>
+                                <p class="price">Price: $1.99</p>
+                                <div class="cart_btn">Add To Cart</div>
+                            </div>
+                        </div>
+                        <div class="food_cont">
+                            <div class="food-img"><img src="" alt="Food-item"></div>
+                            <div class="food-text" data-item-name="Dolor Amet" data-item-price="1.99">
+                                <h2 class="food-name">Dolor Amet</h2>
+                                <p class="food-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore laborum quam fugiat porro odit itaque obcaecati maiores quo quod at molestiae possimus, cumque nihil error dolorum id provident illum et?</p>
+                                <p class="price">Price: $1.99</p>
+                                <div class="cart_btn">Add To Cart</div>
+                            </div>
+                        </div>
+                        <div class="food_cont">
+                            <div class="food-img"><img src="" alt="Food-item"></div>
+                            <div class="food-text" data-item-name="Dolor Amet" data-item-price="1.99">
+                                <h2 class="food-name">Dolor Amet</h2>
+                                <p class="food-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore laborum quam fugiat porro odit itaque obcaecati maiores quo quod at molestiae possimus, cumque nihil error dolorum id provident illum et?</p>
+                                <p class="price">Price: $1.99</p>
+                                <div class="cart_btn">Add To Cart</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="food-section">
+                    <div class="section-title">Desserts</div>
+                    <div class="container">
+                        <div class="food_cont">
+                            <div class="food-img"><img src="" alt="Food-item"></div>
+                            <div class="food-text" data-item-name="Dolor Amet" data-item-price="1.99">
+                                <h2 class="food-name">Dolor Amet</h2>
+                                <p class="food-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore laborum quam fugiat porro odit itaque obcaecati maiores quo quod at molestiae possimus, cumque nihil error dolorum id provident illum et?</p>
+                                <p class="price">Price: $1.99</p>
+                                <div class="cart_btn">Add To Cart</div>
+                            </div>
+                        </div>
+                        <div class="food_cont">
+                            <div class="food-img"><img src="" alt="Food-item"></div>
+                            <div class="food-text" data-item-name="Dolor Amet" data-item-price="1.99">
+                                <h2 class="food-name">Dolor Amet</h2>
+                                <p class="food-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore laborum quam fugiat porro odit itaque obcaecati maiores quo quod at molestiae possimus, cumque nihil error dolorum id provident illum et?</p>
+                                <p class="price">Price: $1.99</p>
+                                <div class="cart_btn">Add To Cart</div>
+                            </div>
+                        </div>
+                        <div class="food_cont">
+                            <div class="food-img"><img src="" alt="Food-item"></div>
+                            <div class="food-text" data-item-name="Dolor Amet" data-item-price="1.99">
+                                <h2 class="food-name">Dolor Amet</h2>
+                                <p class="food-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore laborum quam fugiat porro odit itaque obcaecati maiores quo quod at molestiae possimus, cumque nihil error dolorum id provident illum et?</p>
+                                <p class="price">Price: $1.99</p>
+                                <div class="cart_btn">Add To Cart</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <div class="rule" id="abtus"><hr></div>
+            <section class="abtus">
+                <p class="abtus_txt">
+                    Since our humble beginnings as a family-run street-cart in 1975, our passion has been to offer fresh Vegetarian food by using quality ingredients. Originally based out of Ahmedabad, our strong customer base has allowed us to open in Thailand and now we bring Honest to the United States for the first time.
+
+                    All preparations are made from scratch daily and dishes are cooked to order. We use the freshest and highest quality ingredients. There are no frozen or processed products in our kitchens.
+                    
+                    To our fellow and honorary Indians, we hope you are reminded of home each time you eat at Honest. As for our first time visitors, we welcome you and promise to expand your palate with some of our favorite Indian street foods.
+                </p>
+            </section>
+            <section class="contus" id="contus">
+                <div class="footer">
+                    <div class="footer_heading"><h1>Follow Us</h1></div>
+                    <div class="social_cont">
+                        <div class="socials">
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="fa-brands fa-facebook"></i>
+                                Facebook
+                            </a>
+                        </div>
+                        <div class="socials">
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                                Instagram
+                            </a>
+                        </div>
+                        <div class="socials">
+                            <a href="https://www.twitter.com/" target="_blank">
+                                <i class="fa-brands fa-twitter"></i>
+                                Twitter
+                            </a>
+                        </div>
+                        <div class="socials">
+                            <a href="https://www.linkedin.com/" target="_blank">
+                                <i class="fa-brands fa-linkedin"></i>
+                                Linkedin
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
